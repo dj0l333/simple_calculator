@@ -4,33 +4,88 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
+
 }
 .calculator {
-  border: 1px solid red;
   height: 500px;
   width: 500px;
   display: flex;
   flex-direction: column;
+    background-color: black; opacity: 0.6;
+
+}
+
+.inputs {
+  justify-content: space-evenly;
+  height: 100px;
+  width: 100%;
+  display: flex;
+
+}
+
+.inputfield{
+  height: 50%;
+  height: 50%;
+  border-radius: 24px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.displaycontainer{
+  border: 1px solid green;
+  height: 100px;
+  width: 100%;
+  background-color: black; opacity: 0.8;
+  color: white;
+  display: flex;
+  align-items: center;
+ 
 }
 
 .display {
-  border: 1px solid green;
-  height: 200px;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
   width: 100%;
-}
+} 
 
 .controls {
   border: 1px solid blue;
   height: 300px;
   width: 100%;
+  padding-top:  50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 button {
   background: blue;
-  opacity: 0.2;
+  opacity: 0.8;
   transition: all 1s;
+  height: 100px;
+  width: 100px;
+  font-size: 70px;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  margin: 0 8px;
+  
+
 }
 
 button:hover {
   opacity: 1;
+}
+
+body {
+  background-color: rgb(214, 60, 60);
+  background-image: url("https://img.freepik.com/free-photo/dark-texture-watercolor_125540-769.jpg?size=626&ext=jpg&ga=GA1.2.1682965447.1626566400");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+
 }

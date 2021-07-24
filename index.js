@@ -26,10 +26,25 @@ function subtraction() {
     return updateDisplay(lijeviBroj - desniBroj)
 }
 
+function multiplication() {
+    var lijeviBroj = parseInt(getNumbers().leftValue, 10)
+    var desniBroj = parseInt(getNumbers().rightValue, 10)
+    console.log(lijeviBroj * desniBroj)
+    return updateDisplay(lijeviBroj * desniBroj)
+}
+
+function division() {
+    var lijeviBroj = parseInt(getNumbers().leftValue, 10)
+    var desniBroj = parseInt(getNumbers().rightValue, 10)
+    console.log(lijeviBroj / desniBroj)
+    return updateDisplay(lijeviBroj / desniBroj)
+}
+
 function updateDisplay(rezultat) {
     var display = document.querySelector('.display')
     display.innerText = rezultat
 }
 plus.onclick = addition
 minus.onclick = subtraction
-
+multiply.onclick = multiplication
+divide.onclick = division
