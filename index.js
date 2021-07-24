@@ -33,4 +33,3 @@ function updateDisplay(rezultat) {
 plus.onclick = addition
 minus.onclick = subtraction
 
-// testni komentar
